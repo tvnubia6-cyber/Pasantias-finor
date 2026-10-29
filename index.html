@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Pasantías - Ingeniería Comercial FINOR</title>
+  <!-- Tailwind CSS por CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- ENCABEZADO / NAVBAR -->
+  <header class="bg-blue-900 text-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div>
+        <h1 class="text-xl font-bold">FINOR | UAGRM</h1>
+        <p class="text-xs text-blue-200">Ingeniería Comercial</p>
+      </div>
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:underline font-semibold text-amber-400">Bolsa de Prácticas</a>
+        <a href="#requisitos" class="hover:underline">Requisitos</a>
+        <a href="#empresas" class="bg-amber-500 hover:bg-amber-600 px-3 py-2 rounded-lg font-medium text-black transition">Publicar Vacante</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- BANNER PRINCIPAL -->
+  <section class="bg-blue-800 text-white py-12 px-4 text-center">
+    <h2 class="text-3xl font-bold mb-2">Portal de Prácticas Empresariales</h2>
+    <p class="text-blue-200 max-w-2xl mx-auto">Conectando estudiantes de Ingeniería Comercial de la FINOR con empresas de Montero y el Norte Integrado.</p>
+  </section>
+
+  <!-- SECCIÓN DE BÚSQUEDA Y OFERTAS -->
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    <div class="flex justify-between items-center mb-6">
+      <h3 class="text-2xl font-bold text-gray-800">Convocatorias Vigentes</h3>
+      <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">Actualizado hoy</span>
+    </div>
+
+    <!-- TARJETAS DE PASANTÍAS -->
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <!-- Oferta 1 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition">
+        <div class="flex justify-between items-start mb-2">
+          <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Presencial</span>
+          <span class="text-xs text-gray-500">Montero</span>
+        </div>
+        <h4 class="text-xl font-semibold text-blue-900">Auxiliar de Finanzas y Administración</h4>
+        <p class="text-sm font-medium text-gray-600 mb-2">Institución Financiera / Comercial</p>
+        <p class="text-sm text-gray-700 mb-4">Se busca practicante de 7mo u 8vo semestre. Apoyo en seguimiento de flujo de caja, control documental y archivo.</p>
+        <div class="flex justify-between items-center pt-3 border-t">
+          <span class="text-xs text-gray-500">Horario: Mañana</span>
+          <a href="#" class="bg-blue-900 text-white text-sm px-4 py-2 rounded-lg hover:bg-blue-800 transition">Ver Detalle / Postular</a>
+        </div>
+      </div>
+
+      <!-- Oferta 2 -->
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition">
+        <div class="flex justify-between items-start mb-2">
+          <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Media Jornada</span>
+          <span class="text-xs text-gray-500">Warnes / Montero</span>
+        </div>
+        <h4 class="text-xl font-semibold text-blue-900">Asistente de Marketing y Comercial</h4>
+        <p class="text-sm font-medium text-gray-600 mb-2">Empresa de Servicios</p>
+        <p class="text-sm text-gray-700 mb-4">Apoyo en prospección de clientes, análisis de mercado local y gestión de estrategias de difusión.</p>
+        <div class="flex justify-between items-center pt-3 border-t">
+          <span class="text-xs text-gray-500">Horario: Tarde</span>
+          <a href="#" class="bg-blue-900 text-white text-sm px-4 py-2 rounded-lg hover:bg-blue-800 transition">Ver Detalle / Postular</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="bg-gray-800 text-gray-400 py-6 text-center text-sm border-t border-gray-700 mt-12">
+    <p>© Facultad Integral del Norte (FINOR) - UAGRM</p>
+    <p class="text-xs mt-1 text-gray-500">Carrera de Ingeniería Comercial</p>
+  </footer>
+
+</body>
+</html>
